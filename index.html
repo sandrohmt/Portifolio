@@ -22,7 +22,7 @@
             <span>fechar</span>
         </div>
 
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img  src="./images/background.jpg" alt="Imagem de fundo">
             </div>
@@ -33,25 +33,124 @@
             </div>
         </header>
 
-        <div class="sidebar">
+        <aside>
             <nav>
                 <ul class="menu2">
-                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
             <div class="socialmedia">
                 <a href="https://github.com/sandrohmt"><img class="github" src="./images/github.svg" alt="Miniatura do github"></a>
                 <a href="https://twitter.com/sandrohmtt"><img class="twitter" src="./images/twitter.svg" alt="Miniatura do twitter"></a>
             </div>
-        </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+              <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <img src="./images/html-5.png" alt="" width="48px">
+                  <h3>HTML</h3>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <img src="./images/css-3.png" alt="" width="48px">
+                  <h3>CSS</h3>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <img src="./images/icons8-javascript-48-removebg-preview.png" alt="" width="48px">
+                  <h3>Javascript</h3>
+                </div>
+              </div>
+          </section>
+
+          <section class="sessao-projetos">
+            <div class="sessao-projetos" id="projetos">
+              <div class="sessao-header">
+                <h1>Projetos</h1>
+              </div>
+              <div class="projetos">
+                <div class="card">
+                  <div class="card-img-wrapper">
+                    <img src="./images/sorteio.jpg" alt="Imagem do projeto de sorteio">
+                  </div>
+                  <div class="card-info" id="card-info1">
+                    <h2>Sorteador</h2>
+                    <h3>HTML, CSS e Javascript</h3>
+                    <p>Uma página web onde é possível realizar sorteios de qualquer número a sua escolha</p>
+                    <button class="btn">Saiba Mais</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-img-wrapper">
+                    <img src="./images/churrasco.jpg" alt="Imagem do projeto de sorteio">
+                  </div>
+                  <div class="card-info">
+                    <h2>Churrascômetro</h2>
+                    <h3>HTML, CSS e Javascript</h3>
+                    <p>Uma página web que possibilita saber em média, quanto de comida é necessário comprar baseado 
+                      na quantidade de pessoas e horas do churrasco.</p>
+                    <button class="btn">Saiba Mais</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="sessao-contato" id="contato">
+            <div class="contato-wrapper">
+              <div class="contato-left">
+              </div>
+              <div class="contato-right">
+
+                <h1>Contato</h1>
+                <form action="">
+                  <div class="input-groupt">
+                    <input type="text" class="field" id="nome" placeholder="Nome">
+                    <label for="nome" class="field-label" ></label>
+                  </div>
+                  <div class="input-groupt">
+                    <input type="email" class="field" id="email" placeholder="E-mail">
+                    <label for="email" class="field-label"></label>
+                  </div>
+                  <div class="input-groupt">
+                    <textarea class="field" id="mensagem" placeholder="Mensagem"></textarea>
+                    <label for="mensagem" class="field-label" ></label>
+                  </div>
+                  <button type="submit" class="btn-submit">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </section>
+
+          <footer>
+            <div class="footer-content">
+              <p>
+                Copyright &copy; 2021 - Todos os direitos reservados
+              </p>
+              <div class="atribuitions">
+                <div>Ícones feitos por <a href="https://www.flaticon.com/br/autores/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <a href="https://icons8.com/icon/108784/javascript">Javascript icon by Icons8</a>
+                <a href="https://br.freepik.com/vetores/dom">Dom vetor criado por vectorjuice - br.freepik.com</a>
+                <a href="https://br.freepik.com/vetores/fundo">Fundo vetor criado por vectorpocket - br.freepik.com</a>
+              </div>
+            </div>
+          </footer>
     </div>
 
-    <div>Ícones feitos por <a href="https://www.flaticon.com/br/autores/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
-    <div>Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+
 </body>
 
     <script src="script.js"></script>
